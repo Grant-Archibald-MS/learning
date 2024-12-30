@@ -1,0 +1,40 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+
+
+  services:
+    title: "Sections"
+    text: "Explore sections of interest"
+    section: services
+    list:
+      - title: "[Math](/learning/math/)"
+        desc: "Explore core algebra concepts using interactive examples"
+        icon: fas fa-calculator #find more at https://fontawesome.com/icons
+      - title: "[Programmming](/learning/programming/)"
+        desc: "Explore core programming concepts using Python in your web browser."
+        icon: fas fa-laptop
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+       url: https://linkedin.com
+       icon: "fab fa-linkedin-in"
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
