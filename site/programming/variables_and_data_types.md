@@ -15,7 +15,6 @@ In programming, data types are like different kinds of containers that hold vari
 - **Algebra**: Think of data types like the different kinds of numbers you use in algebra. You have whole numbers (integers), fractions (floats), and even letters or symbols (strings).
 - **Music**: In music, you have different types of notes and sounds. Each type of note (quarter note, half note) can be thought of as a different data type, each with its own properties.
 
-
 ## How Data Types Relate to Real-World Examples
 
 ### Algebra
