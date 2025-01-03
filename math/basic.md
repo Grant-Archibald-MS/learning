@@ -4,19 +4,19 @@ layout: page
 
 ## Basic Arithmetic Evaluation
 
-Lets look at some basic mathematical operations with integers, fractions, decimals, and percents.
+Lets look at some basic mathematical operations with integers, fractions, decimals, and percentages.
 
 ### Integers
 
 Addition and Subtraction:
 
-- What is the sum of -7  and  15?
+- What is the sum of -7 and 15?
 
 - Subtract -12 from 5.
 
 ### Multiplication and Division
 
-- Multiply  -4 by 6
+- Multiply -4 by 6
 
 - Divide -36 by 9
 
@@ -62,6 +62,10 @@ Calculations:
 
 - If a shirt originally costs $40 and is on sale for 25% off, what is the sale price?
 
+## Practice Questions
+
+Try some random questions to test your knowledge and understanding
+
 {% math_solver %}
-RANDOM
+Select a random question
 {% endmath_solver %}
