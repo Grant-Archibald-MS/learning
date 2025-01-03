@@ -84,15 +84,24 @@ Angles are measured in degrees and are a measure of the turn between two lines t
 
 ### Triangle Angles
 
-The sum of the interior angles of a triangle is always  180 degrees.
+The sum of the interior angles of a triangle is always **180 degrees**.
 
 ### Quadrilateral Angles
 
-The sum of the interior angles of a quadrilateral is always 360 degrees.
+The sum of the interior angles of a quadrilateral is always **360 degrees**.
 
 ## Practice Problems
+
 1. Calculate the perimeter of a rectangle with length 8 cm and width 5 cm.
 2. Find the area of a triangle with base 10 cm and height 6 cm.
 3. Determine the volume of a cube with side length 4 cm.
 4. What is the circumference of a circle with radius 7 cm?
-5. Calculate the sum of the interior angles of a quadrilateral.
+
+
+## Practice Questions
+
+Try some random questions to test your knowledge and understanding
+
+{% math_shapes %}
+Select a random question
+{% endmath_shapes %}

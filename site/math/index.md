@@ -63,3 +63,5 @@ Some sample questions that can look to interactively learning
 - [Basic](./basic) - Lets look at some basic mathematical operations with integers, fractions, decimals, and percentages.
 - [Application Problems](./application-problems) - Set up and solve application problems using ratios, proportions, percents, and linear equations with one unknown.
 - [Units](./units) - Identify units of measure and make conversions between units.
+- [Shapes](./shapes) - Calculating Perimeter, Area, Volumes, and Angles of Basic Geometric Shapes
+- [Graphs](./graphs) - Plot points on a coordinate plane and interpret graphs
