@@ -55,3 +55,13 @@ When you layer different sounds, algebra helps you understand how they fit toget
 In digital music production, you often use software to create and manipulate sounds. Algebra helps you understand how to use these tools effectively. For example, if you're using a synthesizer to create a sound, you might adjust parameters like frequency and amplitude. Algebra helps you understand how these changes affect the sound.
 
 By breaking down these concepts into simple steps, you can see how algebra helps you create and control music, even if you're just starting out. 
+
+## Questions
+
+Some sample questions that can look to interactively learning
+
+- [Basic](./basic.md) - Lets look at some basic mathematical operations with integers, fractions, decimals, and percentages.
+- [Application Problems](./application-problems.md) - Set up and solve application problems using ratios, proportions, percents, and linear equations with one unknown.
+- [Units](./units.md) - Identify units of measure and make conversions between units.
+- [Shapes](./shapes.md) - Calculating Perimeter, Area, Volumes, and Angles of Basic Geometric Shapes
+- [Graphs](./graphs.md) - Plot points on a coordinate plane and interpret graphs
