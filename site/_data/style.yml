@@ -1,9 +1,8 @@
-y
 #Color Customization
 #highlight: "#54bfff"
 #white: "#FF0000"
 #black: "#000"
 
 #Image Customization
-header-image: "../img/header-bg.jpg"
-contact-image: "../img/map-image.png"
+header-image: "/learning/assets/img/header-bg.jpg"
+contact-image: "/learning/assets/img/map-image.png"
