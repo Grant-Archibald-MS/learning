@@ -101,7 +101,7 @@ module Jekyll
     function generate_circle_circumference() {
         const radius = generate_random_value(1, 20);
         return {
-            word_problem: `What is the circumference of a circle with radius ${radius} cm?`,
+            word_problem: `What is the circumference of a circle with radius ${radius} cm? (Result to 2 decimal places)`,
             expression: `2 * pi * radius`,
             values: { radius: radius }
         };
@@ -156,7 +156,7 @@ import sympy as sp
 length, width, base, height, side, radius = sp.symbols('length width base height side radius')
 expression = sp.sympify('${code}')
 result = expression.evalf(subs=${JSON.stringify(values)})
-str(result).rstrip('0').rstrip('.')`;
+f"{result:.2f}".rstrip('0').rstrip('.')`;
 
         let result = await runPythonCode(pythonCode);
         if (result !== null) {
