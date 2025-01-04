@@ -79,16 +79,6 @@ $$V = \pi r^2 h$$
 
 where \(r\) is the radius and \(h\) is the height.
 
-## Angles
-Angles are measured in degrees and are a measure of the turn between two lines that meet at a point.
-
-### Triangle Angles
-
-The sum of the interior angles of a triangle is always **180 degrees**.
-
-### Quadrilateral Angles
-
-The sum of the interior angles of a quadrilateral is always **360 degrees**.
 
 ## Practice Problems
 
