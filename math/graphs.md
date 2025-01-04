@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Plot Points on a Coordinate Plane and Interpret Graphs
 
 ## Introduction
@@ -55,7 +59,7 @@ To interpret a linear graph:
 1. Plot the points \((3, 4)\), \((-2, 5)\), \((-3, -4)\), and \((4, -3)\) on a coordinate plane.
 2. Graph the linear equation \(y = 2x + 1\).
 3. Determine the slope and y-intercept of the equation \(y = -3x + 4\).
-4. Interpret the graph of the equation \(y = \frac{1}{2}x - 2\).
+4. Interpret the graph of the equation $$ y = \frac{1}{2}x - 2 $$.
 
 ## Summary
 In this section, we covered how to plot points on a coordinate plane and interpret graphs involving linear equations. These skills are crucial for visualizing and understanding data in various contexts.
