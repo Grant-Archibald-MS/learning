@@ -4,6 +4,15 @@ layout: page
 
 # Math: The Foundation of Interactive Digital Projects
 
+This section looks to provide interactive examples of math concepts in your browser. This site is not intended to be a comprehensive math introduction site as there are many great math relates sites available that can help you learn. Specifically these modules are designed so that:
+
+- They provide key points
+- Where possible relate the concepts to real world applications
+- Run in your browser without the need to send information to a web server to verify correct anwsers
+- Generate random questions so you can check your knowledge.
+
+## Getting Started
+
 If algebra felt confusing or uninteresting before, let's look at it from a different angle. Algebra isn't just about solving equations on paper; it's a powerful tool that helps you create cool, interactive digital projects. Here's how:
 
 - **Real-World Applications**: Imagine you want to create a game or an app. Algebra helps you set up the rules and logic behind how things move and interact. For example, if you're controlling a character to jump, algebra helps you calculate the height and distance of the jump.

@@ -26,34 +26,36 @@ module Jekyll
           <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/python/python.min.js"></script>
           <script>
-            async function loadPyodideAndPackages() {
-              if (typeof window.pyodide === "undefined") {
-                window.editors = [];
-                window.pyodide = await loadPyodide({
-                  indexURL: "https://cdn.jsdelivr.net/pyodide/v0.26.4/full/"
-                });
+            document.addEventListener('DOMContentLoaded', function() {
+              async function loadPyodideAndPackages() {
+                if (typeof window.pyodide === "undefined") {
+                  window.editors = [];
+                  window.pyodide = await loadPyodide({
+                    indexURL: "https://cdn.jsdelivr.net/pyodide/v0.26.4/full/"
+                  });
+                }
+                window.editors["#{@id}-code"] = CodeMirror.fromTextArea(document.getElementById('#{@id}-code'), {
+                  mode: 'python',
+                  lineNumbers: true
+                  });
+                document.getElementById('#{@id}-runButton').disabled = false;
               }
-              window.editors["#{@id}-code"] = CodeMirror.fromTextArea(document.getElementById('#{@id}-code'), {
-                mode: 'python',
-                lineNumbers: true
-                });
-              document.getElementById('#{@id}-runButton').disabled = false;
-            }
-            loadPyodideAndPackages();
-  
-            if (typeof window.runPython === "undefined") {
-              window.runPython = async function runPython(id) {
-                let editor = window.editors[id + '-code'];
-                let code = editor.getValue();
-                let outputElement = document.getElementById(id + '-output');
-                try {
-                  let result = await pyodide.runPythonAsync(code);
-                  outputElement.textContent = result;
-                } catch (err) {
-                  outputElement.textContent = err;
+              loadPyodideAndPackages();
+    
+              if (typeof window.runPython === "undefined") {
+                window.runPython = async function runPython(id) {
+                  let editor = window.editors['#{@id}-code'];
+                  let code = editor.getValue();
+                  let outputElement = document.getElementById('#{@id}-output');
+                  try {
+                    let result = await pyodide.runPythonAsync(code);
+                    outputElement.textContent = result;
+                  } catch (err) {
+                    outputElement.textContent = err;
+                  }
                 }
               }
-            }
+            })
           </script>
         HTML
       end
