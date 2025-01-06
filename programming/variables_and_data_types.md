@@ -187,7 +187,7 @@ matrix
 # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 {% endpyodide %}
 
-The elements in the the multi dimensional array can be use multiple index
+The elements in the the multi dimensional array can be use multiple [] to provide the correct zero based index for each dimension
 
 {% pyodide %}
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]

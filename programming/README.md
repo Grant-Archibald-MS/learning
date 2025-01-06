@@ -20,8 +20,8 @@ We'll use interactive Python as our primary tool to explore programming concepts
 
 #### Key Concepts We'll Cover
 
-- [**Variables and Data Types**](./variables_and_data_types.md): Learn how to store and manipulate data.
-- **Control Structures**: Understand how to use loops and conditionals to control the flow of your programs.
+- [**Variables and Data Types**](./variables_and_data_types): Learn how to store and manipulate data.
+- [**Control Structures**](./control_structures.md): Understand how to use loops and conditionals to control the flow of your progam
 - **Functions**: Discover how to create reusable blocks of code.
 - **Data Structures**: Explore lists, dictionaries, and other ways to organize data.
 - **Modules and Libraries**: Learn how to extend Python's capabilities with additional tools.

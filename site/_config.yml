@@ -32,15 +32,22 @@ plugins:
 gems: [jekyll-mermaid]
 
 include:
+  - communications
   - math
   - programming
 
 copy_folders:
+  - source: '../communications'
+    destination: 'communications'
   - source: '../math'
     destination: 'math'
   - source: '../programming'
     destination: 'programming'
 
 rename_files:
+  - from: "_site/communications.html"
+    to: "_site/communications/index.html"
   - from: "_site/math.html"
     to: "_site/math/index.html"
+  - from: "_site/programming.html"
+    to: "_site/programming/index.html"

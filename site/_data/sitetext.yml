@@ -23,6 +23,9 @@ en: &DEFAULT_EN
       - title: "[Programmming](/learning/programming/)"
         desc: "Explore core programming concepts using Python in your web browser."
         icon: fas fa-laptop
+      - title: "[Communications](/learning/communications/)"
+        desc: "Investigate different communications topics"
+        icon: fas fa-comments
 
   footer:
     legal: "Privacy Policy"
