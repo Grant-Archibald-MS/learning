@@ -46,6 +46,7 @@ jobs:
       - name: Publish .NET project
         run: |
           cd powerfx
+          dotnet workload install wasm-tools
           dotnet publish -c Release --self-contained
       - name: Setup Pages
         id: pages
