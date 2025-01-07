@@ -26,6 +26,7 @@ module Jekyll
 import { dotnet } from '/learning/powerfx/dotnet.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
+   
     const { getAssemblyExports, getConfig } = await dotnet
     .withDiagnosticTracing(false)
     .create();
@@ -41,13 +42,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     const editor = CodeMirror.fromTextArea(document.getElementById('#{@id}-code'), {
-    mode: 'text',
-    lineNumbers: true
+        mode: 'text',
+        lineNumbers: true
     });
 
     document.getElementById('#{@id}-runButton').addEventListener('click', function() {
-    const expression = editor.getValue();
-    executePowerFx(expression);
+        const expression = editor.getValue();
+        executePowerFx(expression);
     });
 });
 </script>
