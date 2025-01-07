@@ -80,5 +80,5 @@ jobs:
       - name: Check for broken links
         uses: ruzickap/action-my-broken-link-checker@v2.7.0
         with:
-          url: 'https://grant-archibald-ms.github.io/powerfuldev-testing'
+          url: 'https://grant-archibald-ms.github.io/learning'
           cmd_params: '--exclude=(github.com|linkedin.com|admin.y.com) --max-connections=10 --color=always --timeout=20'
